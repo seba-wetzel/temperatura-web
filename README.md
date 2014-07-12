@@ -1,0 +1,1 @@
+Script PHP que graba en una base de datos el registro de temperatura captado por un arduino
