@@ -8,7 +8,7 @@ OneWire ourWire(Pin);
 DallasTemperature sensors(&ourWire);
 byte mac[] = {  
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-char server[] = "arduino.electro-ar.tk";
+char server[] = "tu domiio o la ip de tu servidor local";
 IPAddress ip(192,168,0,177);
 EthernetClient client;
 float temperatura = 0;
